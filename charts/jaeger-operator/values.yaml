@@ -99,3 +99,5 @@ priorityClassName:
 hostNetwork: false
 
 metricsPort: 8383
+
+revisionHistoryLimit: 10

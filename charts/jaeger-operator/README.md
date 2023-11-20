@@ -76,6 +76,7 @@ The following table lists the configurable parameters of the jaeger-operator cha
 | `securityContext`          | Security context for pod                                                                                    | `{}`                            |
 | `containerSecurityContext` | Security context for the container                                                                          | `{}`                            |
 | `priorityClassName`        | Priority class name for the pod                                                                             | `None`                          |
+| `revisionHistoryLimit`     | The number of revisions to keep                                                                             | `10`                            |
 
 Specify each parameter you'd like to override using a YAML file as described above in the [installation](#installing-the-chart) section.
 
